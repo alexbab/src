@@ -1,0 +1,73 @@
+//animation
+
+#my-svg{
+	position: absolute;
+	top: 0;
+	left:0;
+   	z-index: -1;
+}
+
+//grid
+#my-svg g path{
+	fill: gray;
+	transform-origin: 50% 50%;
+	transition: 1s;
+}
+
+//logo
+
+//keyframes
+
+@keyframes offset{
+	100%{
+		stroke-dashoffset: 0;
+	}
+}
+
+#bklex{
+	 width: 50%;
+}
+
+@mixin logo-anim($offset) {
+ 	stroke: black;
+	stroke-width : 2;
+	fill-opacity: 0;
+	stroke-dasharray: $offset;
+	stroke-dashoffset: $offset;
+	animation: offset 4s linear forwards;
+	transition : 0.5s;
+	transition-delay: 4s;
+}
+
+#logo-b {
+
+	@include logo-anim(555);
+}
+#logo-k {
+
+	@include logo-anim(590);
+}
+#logo-dot {
+
+	@include logo-anim(120);
+}
+#logo-l {
+
+	@include logo-anim(420);
+}
+#logo-e {
+
+	@include logo-anim(530);
+}
+#logo-x {
+
+	@include logo-anim(590);
+}
+
+//587.3675537109375
+//592.8888549804688
+//59.285194396972656
+//369.4097900390625
+//534.7669067382812
+//595.9054565429688
+

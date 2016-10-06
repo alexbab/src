@@ -1,0 +1,27 @@
+// Contactez-nous page css
+
+.dotted-line{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+span.protectedNumber:before {
+    content: attr(title);
+}
+
+div#e-mail{
+	display: none;
+}
+
+#map-overlay {
+   background:transparent; 
+   position:relative; 
+   width:100%;
+   height:450px; /* your iframe height */
+   top:450px;  /* your iframe height */
+   margin-top:-450px;  /* your iframe height */
+   z-index: 5;
+}
+
+
+

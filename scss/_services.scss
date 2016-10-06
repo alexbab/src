@@ -1,0 +1,43 @@
+//services
+
+#nos-services{
+ 
+ padding-top: 50px;
+ margin-bottom: 100px;
+ background: white;
+}
+
+.dl-horizontal{
+
+	border-left: solid 1px gray;
+}
+
+@media screen and (max-width: 765px) {
+
+	.dl-horizontal{
+
+		border-left:  0;
+	}
+
+}
+
+.dl-horizontal dd{
+	padding-bottom: 5px;
+}
+.featurette-video{
+	margin-top: 25px;
+}
+
+@media (max-width: 450px) {
+      .nos-services .text-right, .nos-services .text-left {
+              text-align: center;
+       } 
+    }
+
+
+
+
+
+
+
+

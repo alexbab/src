@@ -1,0 +1,27 @@
+//css de la page studio, carousel en gros.
+
+
+.carousel-container{
+	margin-top: 0px;
+}
+
+.carousel img {
+	width: 100%;
+}
+
+
+
+.fa-chevron-left, .fa-chevron-right{
+	display: inline-block;
+    position: absolute;
+    top: 48%;
+    z-index: 5;
+ }
+
+
+ .fa-chevron-left{
+ 	left: 0px;
+ }
+  .fa-chevron-right{
+ 	right: 0px;
+ }

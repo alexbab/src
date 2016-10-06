@@ -1,0 +1,35 @@
+//intro
+
+#intro{
+		overflow: hidden;
+	}
+
+#intro-layer {
+		position: absolute;
+		z-index: 4	;
+		width: 100%;
+		left: 0;
+		top: 40%;
+	}
+#post-prod h1{
+	position: relative;
+	margin: auto;
+	opacity: 0;
+	transition : opacity 0.5s;
+	transition-delay: 4.5s;
+}
+
+#post-prod {
+	color: $gray-darker;
+	transition : color 0.5s;
+	text-decoration: none;
+}
+
+#post-prod:hover {
+	color: $gray;
+	text-decoration: none;
+}
+
+#post-prod:visited {
+	text-decoration: none;
+}

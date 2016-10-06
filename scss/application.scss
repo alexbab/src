@@ -1,0 +1,63 @@
+/*
+Theme Name: Simple Bootstrap theme.
+Theme URI: 
+Author: alexbab
+Author URI: 
+Description: Simple bootstrap theme devellopped in sass
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: simpleboot
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+@import 'font-awesome/font-awesome';
+@import 'jquery.fullPage';
+@import 'studio';
+@import 'contact';
+@import 'tarifs';
+
+/*importing custom css*/
+
+@import 'navbar';
+@import 'svg';
+@import 'intro';
+@import 'services';
+@import 'footer';
+
+body{
+
+	height: 100%;
+
+}
+
+html.fp-enabled body {
+	margin-top: 45px;
+}
+
+.post-title{
+	margin-top: 45px;
+}
+
+.section{
+		background-size: cover;
+		text-align:center;
+		overflow: hidden;
+	}
+
+.margin-bottom-20{
+	margin-bottom: 20px;
+}
+
+.margin-top-45{
+	margin-top: 45px;	
+}
+
+
+
+
+
